@@ -26,6 +26,7 @@ public void setup() {
   sketchMapper.addSketch(new Sinscan(this, width / 2, height / 2));
   sketchMapper.addSketch(new RectPattern(this, width / 2, height / 2));
   sketchMapper.addSketch(new EventRect(this, width / 2, height / 2));
+   sketchMapper.addSketch(new Contour(this, width / 2, height / 2));
 }
 
 
